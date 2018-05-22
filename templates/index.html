@@ -14,20 +14,8 @@
     </head>
 </html>
 <body>
-    <!-- <form action="/upload" enctype="multipart/form-data" method="POST">
-        <span class="btn btn-default btn-file">
-            Browse
-            <input name="image" type="file">
-            </input>
-        </span>
-        <input class="btn btn-primary" type="submit" value="Upload you image">
-            <canvas id="canvas">
-                canvas is working/not working
-            </canvas>
-        </input>
-    </form> -->
     <form action="/upload" enctype="multipart/form-data" method="POST">
-        <span><input name="image" type="file"></span>
+        <span><input name="image" type="file" accept="image/gif, image/jpeg, image/png"></span>
         <input type="submit" value="Upload your image.">
     </form>
 </body>
